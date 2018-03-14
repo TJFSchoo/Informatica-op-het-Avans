@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Duo Eindopdracht Webdesign en Studievaardigheden -->
+<!-- Bas van Rooten, 2125132 -->
+<!-- Tom Schoonbeek, 2032257 -->
+    
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Bas van Rooten, Tom Schoonbeek">
+        <title>Informatica Avans Breda</title>
+        
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <!-- Lightbox stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/simpleLightbox.css">
+        
+        <!-- Custom stylesheet -->
+        <link href="css/custom.css" rel="stylesheet">
+        
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    
+    
+	<!-- Navigatie -->
+    <body>
+	<div class="super-container">
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-top" id="navbar" role="navigation">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+   			  </button>
+  	                  <a class="navbar-brand" href="#">
+   						<img src="https://xplora.avans.nl/img/illustraties/logo-white-2.png" width="70" height="25" alt="Avans Logo">
+  					</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#intro">Introductie</a></li>
+                        <li><a href="#about">Wat is informatica</a></li>
+                        <li><a href="#career">Carrière</a></li>
+                        <li><a href="#pictures">Sfeerbeelden</a></li>
+                        <li><a href="#layout">Opbouw</a></li>
+                        <li><a href="#admission">Toelatingseisen</a></li>
+                        <li><a data-toggle="modal" data-target="#contact" class="pointer">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        
+        
+			<!-- Carousel -->
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="active item">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video autoplay="autoplay" muted loop>
+                                <source src="img/header1.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video autoplay="autoplay" muted loop>
+                                <source src="img/header2.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video autoplay="autoplay" muted loop>
+                                <source src="img/header3.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-text hidden-xs">
+                    <div class="col-md-12 text-center">
+                        <h1>Informatica op het Avans</h1>
+                        <h3 class="sub-text">Opgeleid worden tot Bachelor of Science</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- /.carousel -->
+
+        
+		<!-- Introductie -->      
+        <div id="intro" class="container marketing">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2 class="headliner">Avans? Ongetwijfeld de juiste keuze!</h2>
+                    <p class="lead">
+                        Heb jij je zinnen gezet op de een carrière in de alsmaal groeiende ICT-sector? Dan zit je bij Avans aan het goede adres. Met deze hbo-opleiding kun je na afronding als bachelor aan het werk. Baanzekerheid is een garantie en de salarissen zijn erg gunstig. De wereld heeft mensen zoals jij nodig en Avans zorgt dat je alle tools en vaardigheden in huis haalt om een nuttige schakel te vormen in de bedrijfswereld van Information Technology.
+                    </p>
+                </div>
+                
+                
+				<!-- Contact -->                
+                <div class="col-sm-4">
+                    <h2 class="headliner">Contactgegevens</h2>
+                    <p class="lead">Hogeschoollaan 1<br>
+                        4818 CR Breda<br>
+                        Telefoon: 088 - 525 75 00<br>
+                        Studentinfo: 088 - 525 75 50<br>
+                    </p>
+                    <ul class="list-inline">
+                        <li><a class="btn btn-info btn-lg" href="https://www.twitter.com/bas_van_r"><i class="fa fa-twitter" aria-hidden="true"></i> @bas_van_r</a></li>
+                        <li><a class="btn btn-info btn-lg" href="https://twitter.com/baarvaderFTW"><i class="fa fa-twitter" aria-hidden="true"></i> @baarvaderFTW</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+			<!-- Wat is Informatica? -->
+            <hr class="featurette-divider" id="about">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Wat is informatica? Zijn er verschillende richtingen binnen dat vakgebied?<br><span class="text-muted">Wat leer ik op de opleiding?</span></h2>
+                    <p class="body">
+                        Informatica, ook wel bekend als computerwetenschappen, is een studie die alle stromen van informatie omzet naar het digitale. Het gaat hier niet alleen om het bouwen van websites of databases, maar legt ook de nadruk op het verwerken en verspreiden van informatie in deze digitale eeuw.<br>
+                        De opleiding Informatica bij hogeschool Avans leidt jou op tot Bachelor of Science. Iets wat in de huidige samenleving zeer gewild is, dus baanzekerheid is een feit. Je leert software ontwikkelen, testen en automatiseren, je leert onderzoek doen naar specificaties, ontwerpen en wensen van klanten naleven.
+                    </p>
+                    <blockquote>
+                        <p>"Creating Consumer &#38; Enterprise Software Solutions"</p>
+                        <footer>Avans Informatica Motto</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-5">
+                    
+                    
+					<!-- Google Maps widget -->
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div id="map"></div>
+                            <script src="js/maps.js"></script>
+                            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN00u5vIjFWzuL1OHZrHjBJUbryRSiqGM&callback=initMap"></script>
+                            <a href="https://goo.gl/maps/24cLXSq3Cap" target="_blank">
+                                <p class="panel-p text-center">Bekijk deze kaart op Google Maps &raquo;</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+			<!-- Wat kan ik worden als ik Informatica heb gestudeerd? -->    
+            <hr class="featurette-divider" id="career">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="headliner">Wat zijn de carrièremogelijkheden?</h2>
+                    <p class="lead">Het beroepenveld van Informatica is erg breed en wordt steeds uitgebreider. Hoofdzakelijk stromen verse bachelors of science door naar een van de volgende vijf velden:</p>
+                    
+                    <!-- BEGIN ACCORDEON -->
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <p>Software Developer</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p>
+                                        Het ontwikkelen, testen en onderhouden van software. Dit beroep is creatief en klantgericht, en je werkt vooral op projectbasis.  
+                                    </p>
+                                    <a href="http://www.carrieretijger.nl/beroep/techniek/software-engineer">Meer informatie over Software Developer &raquo;</a>                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <p>Web Developer</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p>
+                                        Vergelijkbaar met software developer, maar hier focus je je op het ontwikkelen van websites en achterliggende structuur hiervan.
+                                    </p>
+
+                                    <a href="http://www.carrieretijger.nl/beroep/techniek/webprogrammeur">Meer informatie over Web Developer &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <p>IT-architect</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p>
+                                        Een breed beroep waar je op alle niveaus verbindingen legt tussen ICT en organisatie. Je zorgt dat alle ontwikkelingen worden doorgevoerd op zo’n efficiënt mogelijke manier. Je krijgt veel verantwoordelijkheid.
+                                    </p>
+                                    <a href="https://www.nationaleberoepengids.nl/IT_Architect">Meer informatie over IT-architect &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <p>Projectmanager IT</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <p>
+                                        Het leiden van projecten met vele groepen developers, die werkzaam zijn binnen een IT-bedrijf. 
+                                    </p>
+                                    <a href="http://www.place-it.nl/projectmanager-it.html">Meer informatie over Projectmanager IT &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <p>IT-consultant</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    <p>
+                                        Het advies geven aan bedrijven of mensen over de ontwikkelingen en toepassingen van zaken binnen de IT.
+                                    </p>
+                                    <a href="http://www.stepstone.be/Carriere-Tips/Tips-Trucs/wat-doet-een-it-consultant.cfm">Meer informatie over IT-consultant &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- EINDE ACCORDEON -->
+
+                <div class="col-md-5">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a class="image1" href="img/img3-full.JPG" title="Impressie van het LA gebouw"><img class="featurette-image img-responsive center-block" src="img/img3.jpg" alt="Sfeerfoto van Avans"></a>
+                            <p class="panel-p text-center">Avans Breda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+            
+           
+			<!-- Sfeerbeelden -->              
+ 			<hr class="featurette-divider" id="pictures">
+            <div class="gallery">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="headliner">Sfeerbeelden</h2>
+                        <p class="body">
+                            Onderstaande vind je voorbeelden van de leeromgeving in de gebouwen van Avans te Breda. De lokalen zien er modern en verzorgd uit en er is een luxueuze studeeromgeving in Xplora waar je in alle rust alleen of in groepsverband kunt werken. Ieder type student kan hier zijn plek vinden.<br><br>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="img/Sfeer/DSCF7398.JPG" title="Gebouw LA"><img src="img/Sfeer/DSCF7398-square.jpg" class="img-responsive" alt="Responsive image"></a>
+                            </div>
+                            <div class="panel-footer">Zowel modern..</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="img/Sfeer/DSCF7445.JPG" title="Gebouw LC"><img src="img/Sfeer/DSCF7445-square.jpg" class="img-responsive" alt="Responsive image"></a>
+                            </div>
+                            <div class="panel-footer">..als klassiek</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="img/Sfeer/DSCF0002.jpg" title="Lobby LA"><img src="img/Sfeer/DSCF0002-square.jpg" class="img-responsive" alt="Responsive image"></a>
+                            </div>
+                            <div class="panel-footer">Duurzame ontwikkeling</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./row -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="img/Sfeer/DSCF7490.JPG" title="Lekker eten"><img src="img/Sfeer/DSCF7490-square.jpg" class="img-responsive" alt="Responsive image"></a>
+                            </div>
+                            <div class="panel-footer">Veelzijdige kantines</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="img/Sfeer/DSCF7483.JPG" title="Studeren"><img src="img/Sfeer/DSCF7483-square.jpg" class="img-responsive" alt="Responsive image"></a>
+                            </div>
+                            <div class="panel-footer">Rustige studeeromgeving</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="img/Sfeer/DSCF7495.JPG" title="Onmisbaar"><img src="img/Sfeer/DSCF7495-square.jpg" class="img-responsive" alt="Responsive image"></a>
+                            </div>
+                            <div class="panel-footer">En natuurlijk koffie</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./row -->
+            </div>
+                     
+
+			<!-- Opbouw van de opleiding -->
+            <hr class="featurette-divider" id="layout">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="headliner">Opbouw van de opleiding</h2>
+                    <p class="body">
+                        Het eerste jaar van de opleiding focust zich op het aanleren van alle basisvaardigheden die je in het beroepsleven veel nodig gaat hebben. Met name programmeren komt erg veel aan bod en dit kan best veel zijn om te slikken. Deze basis heb je echter erg  hard nodig tijdens je hele opleiding, en hier moet je dan ook zeker zijn van de kennis die je opdoet. Ook word er veel aandacht besteed aan het aanleren van juiste onderzoek- en schrijfmethodes, om je een goede manier van structuur te geven. Dit zal je bij al je projecten gebruiken. Ook word er aandacht besteed aan je beroepskeuze, zodat je al aan het denken gezet wordt over je mogelijke carrière binnen de IT.
+                    </p>
+                    <p class="body">
+                        Aan het eind van het eerste jaar en in een groot deel van het tweede jaar krijg je te maken met de Scrum-methode. Deze werkmethode is ontwikkeld voor het samenwerken binnen een team, en deze methode wordt in het dagelijkse bedrijfsleven erg veel gebruikt. Het is dus ook belangrijk dat je dit goed onder de knie krijgt. Het tweede jaar besteed je een groot deel aan web development en computernetwerken. Ook met name security is hier een belangrijk onderwerp.
+                    </p>
+                    <p class="body">
+                        Het derde jaar besteed je de eerste twee blokken aan je stage. Hier zal je te maken krijgen met het echte bedrijfsleven, en zullen je vaardigheden uit de eerste twee jaar op proef worden gesteld. Je kunt ook kiezen om deze stage in het buitenland te doen. Verder besteed je dit jaar aan de ontwikkeling van deze professionele vaardigheden en leer je over Artificial Intelligence, User Experience en Serious Gaming.
+                    </p>
+                    <p class="body">
+                        Het vierde jaar bestaat uit je minor, de specialisatie die je hebt gekozen, en je afstudeerstage. <br><br>
+                        Hieronder vind je een tabel met daarin alle vakken en in welke periode deze gegeven worden:
+                    </p>
+                    
+                    
+					<!-- Tabel jaaroverzicht -->
+                    <div class="tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#year1" aria-controls="year1" role="tab" data-toggle="tab">Leerjaar 1</a></li>
+                            <li role="presentation"><a href="#year2" aria-controls="year2" role="tab" data-toggle="tab">Leerjaar 2</a></li>
+                            <li role="presentation"><a href="#year3" aria-controls="year3" role="tab" data-toggle="tab">Leerjaar 3</a></li>
+                            <li role="presentation"><a href="#year4" aria-controls="year4" role="tab" data-toggle="tab">Leerjaar 4</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="year1">
+                                <table class="table table-responsive table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Bedrijfsprocessen</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Beroepsoriëntatie</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Nederlands</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Programmeren in Java en Android</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Relationele Databases</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Studievaardigheden</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Webdesign</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Engels</th>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Duurzame Ontwikkeling</th>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Professionele Vaardigheden</th>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Requirements Engineering</th>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Onderzoeksvaardigheden</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Project Management &#38; Software Engineering</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Softwareontwerp &#38; -architectuur</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Computernetwerken</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Scrum Projecten</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="year2">
+                                <table class="table table-responsive table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>User Experience</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Scrum Project</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Server-side Webdevelopment (ASP.net)</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Algoritmen &#38; Datastructuren</th>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Client-side Webdevelopment (Javascript)</th>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Big Data / Machine Learning</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Business Intelligence</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Security</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Computernetwerken</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Professionele Vaardigheden</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="year3">
+                                <table class="table table-responsive table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Praktijkstage</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Professionele vaardigheden (ethiek)</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Security</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Software architectuur</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Artificial Intelligence</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Serious Gaming</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Solution Architecture</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th>User Experience</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade in" id="year4">
+                                <table class="table table-responsive table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Minor</th>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Afstudeerstage</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                            <td class="text-center"><i class="fa fa-check"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+
+
+ 			<!-- Toelatingseisen -->    
+            <hr class="featurette-divider" id="admission">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="headliner">Toelatingseisen</h2>
+                    <p class="body">
+                        Je mag de opleiding Informatica volgen als je beschikt over een havo- of vwo diploma met een van de volgende vier profielen:
+                    </p>
+                    <ul class="body">
+                        <li>Cultuur &#38; Maatschappij</li>
+                        <li>Economie &#38; Maatschappij</li>
+                        <li>Natuur &#38; Gezondheid</li>
+                        <li>Natuur &#38; Techniek</li>
+                    </ul>
+                    <p class="body">
+                        Als je van het mbo afkomt met vergelijkbare stroming mag je deze opleiding ook doen. Ook als je beschikt over een wo- of hbo-propedeuse is dit mogelijk.
+                    </p>
+                    <p class="body">
+                        Het is ook mogelijk om een verkort traject te volgen, bijvoorbeeld als je beschikt over een mbo-opleiding mediaontwikkelaar.
+                    </p>
+                    <p class="body">
+                        Mocht je niet aan bovenstaande eisen voldoen, dan is het ook nog mogelijk om de 21+ toets te doen en indien goedgekeurd mag je alsnog deelnemen aan de opleiding.
+                    </p>
+                </div>
+                <div class="col-md-6" id="studyPoints">
+                    <h2 class="headliner">
+                        Wat zijn studiepunten?<br>
+                        <span class="text-muted">Hoeveel moet ik er halen?
+                    </h2>
+                    <p class="body">
+                        Het is mogelijk om in het eerste jaar je propedeuse te halen. Dit wilt zeggen dat je een maximaal van 60 studiepunten hebt behaald.  Echter is het minimum te behalen studiepunten om over te gaan naar het tweede jaar 52. Als je je propedeuse het eerste jaar niet hebt behaald, kun je dit in het tweede jaar doen mits je over bent.
+                    </p>
+                    <p class="body">
+                        Studiepunten zijn te verdienen voor alle delen van je opleiding die je afrond. Als je bijvoorbeeld een website hebt gebouwd voor een duo-opdracht met een klasgenoot. De opleiding rekent uit hoeveel tijd je kwijt bent met een bepaalde opdracht, en gemiddeld kun je per 28 uur gewerkte tijd een studiepunt behalen.
+                    </p>
+                    <br>
+                    <a class="btn btn-info btn-lg" href="https://weblog.wur.nl/studiekeuzekind/studiepunten-hoe-werkt-dat/"> Meer informatie over studiepunten &raquo;</a>
+                </div>
+            </div>
+            <hr class="featurette-divider">               
+                
+
+			<!-- Footer -->
+            <footer>
+                <p>&copy; 2017 Bas van Rooten - Tom Schoonbeek - Informatica klas E - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" id="popoverCC" class="btn" data-original-title="Creative Commons" data-content="De fotos op deze pagina zijn zelf gemaakt en uitgegeven onder de licentie BY-NC van Creative Commons." data-placement="top" data-trigger="hover"><img alt="Creative Commons-Licentie" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></p>
+            </footer>
+        </div>
+            
+            
+		<!-- Modal -->
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Contactgegevens</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Deze site is een eindproject van de vakken Studievaardigheden en Webdesign van <a href="http://www.avans.nl">Avans Hogeschool</a>, via de opleiding Informatica.</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Naam</th>
+                                    <th>Studentnummer</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bas van Rooten</td>
+                                    <td>2125132</td>
+                                    <td>bjcroote@avans.nl</td>
+                                </tr>
+                                <tr>
+                                    <td>Tom Schoonbeek</td>
+                                    <td>2032257</td>
+                                    <td>tjfschoo@avans.nl</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+   	</div>
+
+   	<!-- Back to Top button -->
+   	<div class="btt">
+   		<a href="#"><i class="fa fa-chevron-up btt-button"></i></a>
+   	</div>
+            
+            
+        <!-- Bootstrap Javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Smooth Scrolling and Scrollspy -->
+        <script src="js/scrollspy.js"></script>
+        
+        <!-- Lightbox JS-->
+        <script src="js/simpleLightbox.js"></script>
+        
+        <!-- JSCaller -->
+        <script src="js/jsCaller.js"></script>
+                  
+    </body>
+</html>
